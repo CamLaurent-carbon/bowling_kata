@@ -2,6 +2,14 @@ package service
 
 import kotlin.random.Random
 
+/**
+ * Represents a bowling game that simulates frame-based scoring with adjustable skill level.
+ *
+ * @property skillLevel The skill level of the player, ranging from 0 to 10. Higher values represent better accuracy.
+ *                      Defaults to 0. Must be within 0 to 10, inclusive.
+ * @property totalFrame The total number of frames in the game.
+ * @property frameHistory A list maintaining the history of frames played during the game.
+ */
 class Game(
     private val skillLevel: Int = 0
 ) {
