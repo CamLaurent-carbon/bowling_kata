@@ -5,7 +5,7 @@ import kotlin.random.Random
 
 /*
     I add a skill level system for check strike and spare correctly.
-    And I add a game of 10 players with random skill level
+    And I add a game of 10 players with random skill level.
 */
 fun main() {
     val players = (1..10).map { Random.nextInt(0, 11) }

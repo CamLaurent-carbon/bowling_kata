@@ -4,6 +4,15 @@ import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 
+/**
+ * Test class for validating the functionality of the Game class.
+ *
+ * This class contains unit tests to verify correct behavior and edge cases
+ * for the Game class, including initialization, gameplay mechanics, and scoring logic.
+ *
+ * Each test method targets a specific aspect of the Game class and ensures
+ * that it operates as expected under various conditions.
+ */
 class GameTest {
     @Test
     fun `should initialize game with valid skill level`() {
